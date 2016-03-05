@@ -1,0 +1,26 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Pablo Fernández - Actividad 2.2</title>
+
+	<link rel="stylesheet" href="css/style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="js/config.js"></script>
+	<script src="js/masterui.js"></script>
+	<script src="js/events.js"></script>
+	<script src="js/master.js"></script>
+
+</head>
+<body>
+	<div id="options">
+		% Green Squares <input id="pctGreen" type="number" value="60" min="50" max="90" style="width: 38px;"><br><br>
+		# of Open Squares <input id="openSquares" type="number" value="30" min="30" max="50" style="width: 38px;"><br><br>
+		Min. green neighbors <input id="greenNeighbors" type="number" value="3" min="1" max="90" style="width: 38px;"><br><br>
+		Min. blue neighbors <input id="blueNeighbors" type="number" value="3" min="1" max="90" style="width: 38px;"><br><br><br>
+
+		<button onClick="generate();">Save & Play</button>		
+	</div>
+
+	<div id="board"></div>
+</body>
+</html>

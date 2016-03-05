@@ -1,0 +1,62 @@
+#options {
+	position: absolute;
+
+	width: 200px;
+	height: 300px;
+
+	background: black;
+	color: white;
+
+	padding: 1%;
+}
+
+#options > input {
+	float: right;
+	margin-right: 5%;
+}
+
+#options > button {
+	position: relative;
+	margin-left: 25%;
+}
+
+#board {
+	position: absolute;
+	left: 250px;
+
+	width: 520px;
+	height: 520px;
+}
+
+.row {
+	position: relative;
+
+	width: 520px;
+	height: 50px;
+}
+
+.square {
+	position: relative;
+	float: left;
+	
+	width: 50px;
+	height: 50px;
+
+	border: #007 1px solid;
+}
+
+.blue {
+	background: blue;
+}
+
+.green {
+	background: green;
+}
+
+.pink {
+	background: pink;
+}
+
+.hovered {
+	background: purple;
+}
